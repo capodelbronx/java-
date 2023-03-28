@@ -35,7 +35,8 @@ public class Nodo {
     }
 
     public String getStrada(){
-        String distanza ="";
+        fine=" ";
+        String distanza =" ";
         if(this.distanza<Integer.MAX_VALUE){
             distanza+=this.distanza;
 
